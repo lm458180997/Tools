@@ -1,0 +1,5 @@
+bin\Debug\ToolTipEx.dll
+bin\Debug\ToolTipEx.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\ToolTipEx.dll
+obj\Debug\ToolTipEx.pdb

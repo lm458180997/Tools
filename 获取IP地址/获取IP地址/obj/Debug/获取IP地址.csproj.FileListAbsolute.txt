@@ -1,0 +1,9 @@
+F:\C#学习\获取IP地址\获取IP地址\bin\Debug\获取IP地址.exe.config
+F:\C#学习\获取IP地址\获取IP地址\bin\Debug\获取IP地址.exe
+F:\C#学习\获取IP地址\获取IP地址\bin\Debug\获取IP地址.pdb
+F:\C#学习\获取IP地址\获取IP地址\obj\Debug\获取IP地址.csprojResolveAssemblyReference.cache
+F:\C#学习\获取IP地址\获取IP地址\obj\Debug\获取IP地址.Properties.Resources.resources
+F:\C#学习\获取IP地址\获取IP地址\obj\Debug\获取IP地址.csproj.GenerateResource.Cache
+F:\C#学习\获取IP地址\获取IP地址\obj\Debug\获取IP地址.exe
+F:\C#学习\获取IP地址\获取IP地址\obj\Debug\获取IP地址.pdb
+F:\C#学习\获取IP地址\获取IP地址\obj\Debug\获取IP地址.Form1.resources

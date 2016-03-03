@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{14F4A96D-E875-41E6-AE6C-4A853464FD87}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CSharpWin</RootNamespace>
+    <AssemblyName>ToolTipEx</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ControlPaintEx.cs" />
+    <Compile Include="GraphicsPathHelper.cs" />
+    <Compile Include="ImageDc.cs" />
+    <Compile Include="InterpolationModeGraphics.cs" />
+    <Compile Include="RegionHelper.cs" />
+    <Compile Include="RenderHelper.cs" />
+    <Compile Include="RoundStyle.cs" />
+    <Compile Include="SmoothingModeGraphics.cs" />
+    <Compile Include="TextRenderingHintGraphics.cs" />
+    <Compile Include="ToolTipColorTable.cs" />
+    <Compile Include="Win32\ClassName.cs" />
+    <Compile Include="Win32\Const\AC.cs" />
+    <Compile Include="Win32\Const\GWL.cs" />
+    <Compile Include="Win32\Const\HWND.cs" />
+    <Compile Include="Win32\Const\SWP.cs" />
+    <Compile Include="Win32\Const\TTDT.cs" />
+    <Compile Include="Win32\Const\TTF.cs" />
+    <Compile Include="Win32\Const\TTI.cs" />
+    <Compile Include="Win32\Const\TTM.cs" />
+    <Compile Include="Win32\Const\TTN.cs" />
+    <Compile Include="Win32\Const\TTS.cs" />
+    <Compile Include="Win32\Const\WM.cs" />
+    <Compile Include="Win32\Const\WS.cs" />
+    <Compile Include="Win32\Const\WS_EX.cs" />
+    <Compile Include="Win32\Result.cs" />
+    <Compile Include="Win32\Const\CDRF.cs" />
+    <Compile Include="Win32\Const\LPSTR.cs" />
+    <Compile Include="Win32\Struct\BLENDFUNCTION.cs" />
+    <Compile Include="Win32\Const\CDDS.cs" />
+    <Compile Include="Win32\Const\ICC.cs" />
+    <Compile Include="Win32\Const\NM.cs" />
+    <Compile Include="Win32\Enum\TRACKMOUSEEVENT_FLAGS.cs" />
+    <Compile Include="Win32\Struct\INITCOMMONCONTROLSEX.cs" />
+    <Compile Include="Win32\Struct\TRACKMOUSEEVENT.cs" />
+    <Compile Include="Win32\Struct\TT_HITTESTINFO.cs" />
+    <Compile Include="Win32\Struct\NMTTCUSTOMDRAW.cs" />
+    <Compile Include="Win32\Struct\NMCUSTOMDRAW.cs" />
+    <Compile Include="Win32\Struct\NMHDR.cs" />
+    <Compile Include="Win32\Struct\NMTTDISPINFO.cs" />
+    <Compile Include="Win32\Struct\TOOLINFO.cs" />
+    <Compile Include="Win32\Struct\PAINTSTRUCT.cs" />
+    <Compile Include="Win32\Struct\POINT.cs" />
+    <Compile Include="Win32\NativeMethods.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ToolTipEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Win32\Struct\RECT.cs" />
+    <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

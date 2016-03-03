@@ -1,0 +1,13 @@
+C:\Users\sony\AppData\Local\Temporary Projects\Snake\bin\Debug\Snake.exe.config
+E:\C#学习\Snake\Snake\bin\Debug\Snake.exe.config
+E:\C#学习\Snake\Snake\bin\Debug\Snake.exe
+E:\C#学习\Snake\Snake\bin\Debug\Snake.pdb
+E:\C#学习\Snake\Snake\obj\Debug\Snake.csprojResolveAssemblyReference.cache
+E:\C#学习\Snake\Snake\obj\Debug\Snake.Form1.resources
+E:\C#学习\Snake\Snake\obj\Debug\Snake.Properties.Resources.resources
+E:\C#学习\Snake\Snake\obj\Debug\Snake.csproj.GenerateResource.Cache
+E:\C#学习\Snake\Snake\obj\Debug\Snake.exe
+E:\C#学习\Snake\Snake\obj\Debug\Snake.pdb
+F:\C#学习\Snake\Snake\bin\Debug\Snake.exe.config
+F:\C#学习\Snake\Snake\obj\Debug\Snake.exe
+F:\C#学习\Snake\Snake\obj\Debug\Snake.pdb

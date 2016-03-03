@@ -1,0 +1,9 @@
+F:\C#学习\文件打包与再封装\FileClip\FileClip\bin\Debug\FileClip.exe.config
+F:\C#学习\文件打包与再封装\FileClip\FileClip\bin\Debug\FileClip.exe
+F:\C#学习\文件打包与再封装\FileClip\FileClip\bin\Debug\FileClip.pdb
+F:\C#学习\文件打包与再封装\FileClip\FileClip\obj\Debug\FileClip.csprojResolveAssemblyReference.cache
+F:\C#学习\文件打包与再封装\FileClip\FileClip\obj\Debug\FileClip.Properties.Resources.resources
+F:\C#学习\文件打包与再封装\FileClip\FileClip\obj\Debug\FileClip.csproj.GenerateResource.Cache
+F:\C#学习\文件打包与再封装\FileClip\FileClip\obj\Debug\FileClip.exe
+F:\C#学习\文件打包与再封装\FileClip\FileClip\obj\Debug\FileClip.pdb
+F:\C#学习\文件打包与再封装\FileClip\FileClip\obj\Debug\FileClip.Form1.resources

@@ -1,0 +1,299 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{631C00E6-D0C5-41EE-AD43-CD705BAA90A9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>stg</RootNamespace>
+    <AssemblyName>STGgame</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Animation\Animation.cs" />
+    <Compile Include="Animation\Enemy_e.cs" />
+    <Compile Include="Animation\Escape.cs" />
+    <Compile Include="Animation\Reimu_bullet_s.cs" />
+    <Compile Include="Animation\Reimu_effect.cs" />
+    <Compile Include="Animation\Show_enemy.cs" />
+    <Compile Include="boss\boss.cs" />
+    <Compile Include="bullet\Arrow_blue.cs" />
+    <Compile Include="bullet\Bigjade_white.cs" />
+    <Compile Include="bullet\bullet.cs" />
+    <Compile Include="bullet\Bullet_name.cs" />
+    <Compile Include="bullet\knife_blue.cs" />
+    <Compile Include="bullet\Knife_gray.cs" />
+    <Compile Include="bullet\knife_red.cs" />
+    <Compile Include="bullet\Reimu_Bullet_small.cs" />
+    <Compile Include="bullet\Reimu_bullet_fire.cs" />
+    <Compile Include="bullet\Stage1_1.cs" />
+    <Compile Include="bullet\Stage1_2.cs" />
+    <Compile Include="enemy\enemy.cs" />
+    <Compile Include="enemy\Enemy_black.cs" />
+    <Compile Include="enemy\Enemy_black_Servitor.cs" />
+    <Compile Include="enemy\Enemy_LittleSyren.cs" />
+    <Compile Include="enemy\Enemy_name.cs" />
+    <Compile Include="enemy\Enemy_NormalEnemy.cs" />
+    <Compile Include="enemy\Stage1_1.cs" />
+    <Compile Include="enemy\Stage1_2.cs" />
+    <Compile Include="entity.cs" />
+    <Compile Include="ExtraEventArgs.cs" />
+    <Compile Include="Game.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Game.Designer.cs">
+      <DependentUpon>Game.cs</DependentUpon>
+    </Compile>
+    <Compile Include="images.cs" />
+    <Compile Include="Item.cs" />
+    <Compile Include="Items\YinYangyu_L.cs" />
+    <Compile Include="Items\YinYangyu_R.cs" />
+    <Compile Include="player\player.cs" />
+    <Compile Include="player\Reimu.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Stage.cs" />
+    <Compile Include="stages\Stage1.cs" />
+    <Compile Include="Utils.cs" />
+    <Compile Include="vector.cs" />
+    <EmbeddedResource Include="Game.resx">
+      <DependentUpon>Game.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\knife_gray.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\knife_lightblue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\knife_red.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\knife_white.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\normalbullet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enemy_littleblue_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enemy_littleblue_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\knife_blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\knife_gold.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lin_forward.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lin_bullet_small.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\线2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\forest.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\moon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow_blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow_red.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow_gold.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rice_white.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rice_blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enemy_black_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enemy_black_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enemy_bigblack.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ellipse_blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bigjade_white.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pl00.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\player00.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eff_sloweffect.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stage01a.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stage01e.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stage01f.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enemys1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eff_maple.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eff_charge.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\etama2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eff_deadcircle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\item.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\laser2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\laser1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bullet1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bullet2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bullet3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eff_magicsquare.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\etbreak.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enemy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enemy2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\etama4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eff05b.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eff04b.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stage02a.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stage02b.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stage02c.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

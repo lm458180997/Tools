@@ -1,0 +1,19 @@
+C:\Users\sony\AppData\Local\Temporary Projects\qi\bin\Debug\qi.exe.config
+E:\C#学习\qi\qi\bin\Debug\qi.exe.config
+E:\C#学习\qi\qi\obj\Debug\qi.csprojResolveAssemblyReference.cache
+E:\C#学习\qi\qi\obj\Debug\qi.Form1.resources
+E:\C#学习\qi\qi\obj\Debug\qi.Properties.Resources.resources
+E:\C#学习\qi\qi\obj\Debug\qi.csproj.GenerateResource.Cache
+E:\C#学习\qi\qi\bin\Debug\qi.exe
+E:\C#学习\qi\qi\bin\Debug\qi.pdb
+E:\C#学习\qi\qi\obj\Debug\qi.exe
+E:\C#学习\qi\qi\obj\Debug\qi.pdb
+F:\C#学习\qi\qi\bin\Debug\qi.exe.config
+F:\C#学习\qi\qi\obj\Debug\qi.exe
+F:\C#学习\qi\qi\obj\Debug\qi.pdb
+F:\C#学习\qi\qi\bin\Debug\qi.exe
+F:\C#学习\qi\qi\bin\Debug\qi.pdb
+F:\C#学习\qi\qi\obj\Debug\qi.csprojResolveAssemblyReference.cache
+F:\C#学习\qi\qi\obj\Debug\qi.Form1.resources
+F:\C#学习\qi\qi\obj\Debug\qi.Properties.Resources.resources
+F:\C#学习\qi\qi\obj\Debug\qi.csproj.GenerateResource.Cache

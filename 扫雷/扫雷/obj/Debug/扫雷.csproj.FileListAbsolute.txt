@@ -1,0 +1,16 @@
+C:\Users\sony\AppData\Local\Temporary Projects\扫雷\bin\Debug\扫雷.exe.config
+E:\C#学习\扫雷\扫雷\bin\Debug\扫雷.exe.config
+E:\C#学习\扫雷\扫雷\bin\Debug\扫雷.exe
+E:\C#学习\扫雷\扫雷\bin\Debug\扫雷.pdb
+E:\C#学习\扫雷\扫雷\obj\Debug\扫雷.csprojResolveAssemblyReference.cache
+E:\C#学习\扫雷\扫雷\obj\Debug\扫雷.Form1.resources
+E:\C#学习\扫雷\扫雷\obj\Debug\扫雷.Properties.Resources.resources
+E:\C#学习\扫雷\扫雷\obj\Debug\扫雷.csproj.GenerateResource.Cache
+E:\C#学习\扫雷\扫雷\obj\Debug\扫雷.exe
+E:\C#学习\扫雷\扫雷\obj\Debug\扫雷.pdb
+E:\C#学习\扫雷\扫雷\obj\Debug\扫雷.glassbutton.resources
+E:\C#学习\扫雷\扫雷\bin\Debug\ToolTipEx.dll
+E:\C#学习\扫雷\扫雷\bin\Debug\ToolTipEx.pdb
+F:\C#学习\扫雷\扫雷\bin\Debug\扫雷.exe.config
+F:\C#学习\扫雷\扫雷\obj\Debug\扫雷.exe
+F:\C#学习\扫雷\扫雷\obj\Debug\扫雷.pdb

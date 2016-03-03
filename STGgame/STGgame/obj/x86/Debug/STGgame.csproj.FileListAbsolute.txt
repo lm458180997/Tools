@@ -1,0 +1,9 @@
+F:\C#学习\STGgame\STGgame\bin\x86\Debug\STGgame.exe.config
+F:\C#学习\STGgame\STGgame\obj\x86\Debug\STGgame.csprojResolveAssemblyReference.cache
+F:\C#学习\STGgame\STGgame\obj\x86\Debug\stg.Game.resources
+F:\C#学习\STGgame\STGgame\obj\x86\Debug\stg.Properties.Resources.resources
+F:\C#学习\STGgame\STGgame\obj\x86\Debug\STGgame.csproj.GenerateResource.Cache
+F:\C#学习\STGgame\STGgame\bin\x86\Debug\STGgame.exe
+F:\C#学习\STGgame\STGgame\bin\x86\Debug\STGgame.pdb
+F:\C#学习\STGgame\STGgame\obj\x86\Debug\STGgame.exe
+F:\C#学习\STGgame\STGgame\obj\x86\Debug\STGgame.pdb

@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "扫雷", "扫雷\扫雷.csproj", "{B0CC72D7-B6DA-4CD7-A14D-98EB2394EDBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToolTipEx", "ToolTipEx\ToolTipEx.csproj", "{14F4A96D-E875-41E6-AE6C-4A853464FD87}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B0CC72D7-B6DA-4CD7-A14D-98EB2394EDBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0CC72D7-B6DA-4CD7-A14D-98EB2394EDBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0CC72D7-B6DA-4CD7-A14D-98EB2394EDBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0CC72D7-B6DA-4CD7-A14D-98EB2394EDBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14F4A96D-E875-41E6-AE6C-4A853464FD87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14F4A96D-E875-41E6-AE6C-4A853464FD87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14F4A96D-E875-41E6-AE6C-4A853464FD87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14F4A96D-E875-41E6-AE6C-4A853464FD87}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

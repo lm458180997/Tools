@@ -1,0 +1,28 @@
+C:\Users\sony\AppData\Local\Temporary Projects\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\sony\AppData\Local\Temporary Projects\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\sony\AppData\Local\Temporary Projects\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\sony\AppData\Local\Temporary Projects\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\sony\AppData\Local\Temporary Projects\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\sony\AppData\Local\Temporary Projects\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+C:\Users\sony\AppData\Local\Temporary Projects\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\sony\AppData\Local\Temporary Projects\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+E:\C#学习\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+E:\C#学习\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+E:\C#学习\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+E:\C#学习\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+E:\C#学习\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+E:\C#学习\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+E:\C#学习\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+E:\C#学习\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+E:\C#学习\获得type以及循环的实用\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+E:\C#学习\获得type以及循环的实用\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+E:\C#学习\获得type以及循环的实用\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+E:\C#学习\获得type以及循环的实用\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+E:\C#学习\获得type以及循环的实用\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+E:\C#学习\获得type以及循环的实用\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+E:\C#学习\获得type以及循环的实用\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+E:\C#学习\获得type以及循环的实用\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+E:\C#学习\获得type以及循环的实用\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+F:\C#学习\获得type以及循环的实用\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+F:\C#学习\获得type以及循环的实用\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+F:\C#学习\获得type以及循环的实用\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
